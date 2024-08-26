@@ -1,15 +1,12 @@
 package tests;
 
 import org.testng.Assert;
-import org.testng.annotations.BeforeMethod;
 import org.testng.annotations.Parameters;
 import org.testng.annotations.Test;
-import pages.*;
 import pages.cart.CartPage;
 import pages.cart.CheckoutCompletePage;
 import pages.cart.CheckoutStepOnePage;
 import pages.cart.CheckoutStepTwoPage;
-import utils.baseTest.BaseTest;
 import utils.baseTest.LoginBaseTest;
 
 public class PurchaseAProductTest extends LoginBaseTest {

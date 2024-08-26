@@ -1,12 +1,8 @@
 package tests;
 
 import org.testng.Assert;
-import org.testng.annotations.BeforeMethod;
-import org.testng.annotations.Parameters;
 import org.testng.annotations.Test;
 import pages.cart.CartPage;
-import pages.InventoryPage;
-import pages.LoginPage;
 import utils.baseTest.LoginBaseTest;
 
 public class RemoveProductsFromCartTest extends LoginBaseTest {
